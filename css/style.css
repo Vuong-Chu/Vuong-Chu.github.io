@@ -46,6 +46,27 @@ li {
     -webkit-line-clamp: 6;
 }
 
+/* CSS styles for the map container */
+#map-container {
+width: 600px;
+height: 450px;
+float: right;
+}
+
+/* CSS styles for the photo container */
+#photo-container {
+width: 300px;
+height: 450px;
+float: left;
+}
+
+/* CSS styles for the photo */
+#photo-container img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
 section {
     padding-top: 185px;
     padding-bottom: 185px;
